@@ -1,0 +1,13 @@
+{
+	"name": "LS_prime_http",
+	"properties": {
+		"description": "Link servise de origen desde una url de github",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/yomod290/End_to_End_Primer_Video/main/",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
