@@ -1,0 +1,13 @@
+{
+	"name": "LS_prime_http",
+	"properties": {
+		"description": "Link servise de origen desde una url de github",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/yomod290/End_to_End_Primer_Video/refs/heads/main/dataset/amazon_prime_titles.csv?token=GHSAT0AAAAAADT5NKYWIEWPP3FSNAMKDQ4C2LY6CQA",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
