@@ -1,0 +1,23 @@
+{
+	"name": "DS_adsl_Prime",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_adsl_prime_sink_DEV",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "amazon_prime_titles.csv",
+				"fileSystem": "bronze"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
