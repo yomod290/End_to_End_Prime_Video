@@ -66,6 +66,12 @@ Copiar código
 - Persistencia en **ADLS Gen2**
 - Esquema original preservado
 
+
+
+<img width="908" height="537" alt="image" src="https://github.com/user-attachments/assets/6341fffe-8f58-4925-a769-26e8cbdff16a" />
+
+
+
 ### ⚪ Silver Layer
 - Limpieza y normalización de datos
 - Conversión explícita de tipos
@@ -73,6 +79,10 @@ Copiar código
 - Eliminación de duplicados
 - Transformación de campos de duración (`duration_value`, `duration_unit`)
 - Implementación de **SCD Tipo 1** usando `MERGE` sobre **Delta Lake**
+
+
+<img width="940" height="553" alt="image" src="https://github.com/user-attachments/assets/85e83502-e6ca-4091-ba4b-0f46c0562dd5" />
+
 
 ### 🟡 Gold Layer
 - Datos listos para análisis
