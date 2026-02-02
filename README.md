@@ -90,6 +90,9 @@ Copiar código
 - Estructura pensada para consultas analíticas
 - Fuente oficial para Synapse y Power BI
 
+  <img width="1277" height="718" alt="image" src="https://github.com/user-attachments/assets/b4887189-a01d-400b-825c-0941187a9fac" />
+
+
 ---
 
 ## 🧰 Tecnologías Utilizadas
